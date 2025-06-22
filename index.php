@@ -4,6 +4,7 @@ $query = "SELECT * FROM category";
 $query = "SELECT * FROM product";
 $query = "SELECT * FROM offers";
 $result = mysqli_query($conn, $query);
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
