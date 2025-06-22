@@ -1,0 +1,143 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  background: #fff0f5;
+}
+
+header {
+  background: #8a0057;
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  display: flex;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #9b9595;
+  font-family: "Playfair Display", serif;
+  padding: 10px 60px;
+  box-shadow: 0 4px 10px rgba(4, 4, 4, 0.363);
+  backdrop-filter: blur(4px);
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.pages a{
+    margin-left: 30%;
+}
+
+.logo {
+  width: 60px;
+  height: auto;
+  margin-right: 0;
+}
+
+.logo-text {
+  font-family: "Allura", cursive;
+  font-style: normal;
+  color: white;
+  font-size: 30px;
+  margin-left: 0;
+}
+
+.left-section a {
+  text-decoration: none;
+  color: #fbf1f1;
+  font-size: 20px;
+}
+.left-section a:hover{
+  text-decoration: underline white;
+}
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.icons a img {
+  width: 28px;
+  height: 28px;
+}
+
+.social-icon {
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+  padding-top: 15px;
+}
+
+.content {
+  margin-top: 50px;
+  padding: 5px;
+  margin: 70px;
+  margin-left: 20%;
+  max-width: 60%;
+  border-radius: 25px;
+  box-shadow: 0 4px 10px rgba(4, 4, 4, 0.363);
+  backdrop-filter: blur(4px);
+  align-items: center;
+}
+.content h1 {
+  color: #000000;
+  font-family: "Playfair Display", serif;
+  font-size: 40px;
+  font-weight: lighter;
+  margin-top: 40px;
+}
+.content img {
+  margin-right: 10px;
+}
+
+.form input {
+  font-family: "Playfair Display", serif;
+  font-weight: lighter;
+  font-size: larger;
+  margin-left: 85px;
+  margin-top: 6px;
+  color: black;
+  width: 80%;
+  height: 60px; 
+}
+.form button {
+  background: #9e4c7a;
+  font-family: "Playfair Display", serif;
+  font-weight: lighter;
+  font-size: larger;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 10px;
+  margin-top: 40px;
+  cursor: pointer;
+  margin-left: 90px;
+  margin-bottom: 20px;
+  height: 70px;
+  width: 80%;
+}
+
+.form button:hover{
+  background: #990e5c;
+}
+
+.form h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: lighter;
+  font-size: larger;
+  margin-left: 80px;
+  margin-top: 40px;
+  color: black;
+}
